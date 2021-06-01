@@ -1,5 +1,6 @@
 <figure>
-    <img [ngStyle]="{ opacity: imgOpacity }" src="{{ imgSrc }}" alt="{{ altTxt }}" style="width: 100%;" (click)="onImageClick.emit($event)"/>
+    <img [ngStyle]="{ opacity: imgOpacity }" src="{{ imgSrc }}" alt="{{ altTxt }}" style="width: 100%;"
+        (click)="onImageClick.emit($event)" />
     <figcaption *ngIf="figAddressTxt && figAddressTxt.trim().length > 0">
         {{ figAddressTxt }}
     </figcaption>

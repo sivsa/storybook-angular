@@ -2,13 +2,13 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { OfficeImageComponent } from '../app/office-image/office-image.component';
 
 export default {
-  title: 'Example/Image Component',
-  component: OfficeImageComponent
+    title: 'Example/Image Component',
+    component: OfficeImageComponent
 } as Meta;
 
 const Template: Story<OfficeImageComponent> = (args: OfficeImageComponent) => ({
-  component: OfficeImageComponent,
-  props: args,
+    component: OfficeImageComponent,
+    props: args,
 });
 
 export const NoImageCaption = Template.bind({});
